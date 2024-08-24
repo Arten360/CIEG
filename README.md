@@ -1,6 +1,6 @@
 # CIEG - Carbon Intensity in the Electrical Grid
 
-Dieses Projekt zielt darauf ab, die orts- und zeitabhängige CO2-Intensität des Stromnetzes für weitere Berechnungen und Analysen zu nutzen. Die Inspiration stammt aus dem Coursera Kurs "Carbon Aware Computing".
+Dieses Projekt zielt darauf ab, die orts- und zeitabhängige CO2-Intensität des Stromnetzes für weitere Berechnungen und Analysen zu nutzen. Die Inspiration stammt aus dem deeplearning.ai Kurs "Carbon Aware Computing". https://learn.deeplearning.ai/courses/carbon-aware-computing-for-genai-developers/lesson/1/introduction
 
 **Was ist CO2-Intensität?**
 
@@ -31,7 +31,7 @@ Die CO2-Intensität des Stroms variiert stark je nach Ort und Uhrzeit, abhängig
 Wir nutzen die API von Electricity Maps ([https://www.electricitymaps.com/free-tier-api](https://www.electricitymaps.com/free-tier-api)) um auf aktuelle Daten zur CO2-Intensität zuzugreifen. Weitere Informationen zur Methodik finden Sie unter [https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors](https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors)
 
 **Authentifizierung**
-Der Authentifizierungsschlüssel (auth-token) für den Zugriff auf die API ist in der Datei `helper.py` für den Benutzer `martin.stolz@magenta.de` hinterlegt.
+Der Authentifizierungsschlüssel (auth-token) für den Zugriff auf die API wird in der Datei `helper.py` für den Benutzer `benutzer@domain` hinterlegt.
 
 **Codebeispiele**
 
