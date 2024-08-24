@@ -28,7 +28,7 @@ Die CO2-Intensität des Stroms variiert stark je nach Ort und Uhrzeit, abhängig
 
 **Datenquelle**
 
-Wir nutzen die API von Electricity Maps ([https://www.electricitymaps.com/free-tier-api](https://www.electricitymaps.com/free-tier-api)) um auf aktuelle Daten zur CO2-Intensität zuzugreifen. Weitere Informationen zur Methodik finden Sie unter [https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors](https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors)
+Wir nutzen die API von Electricity Maps ([https://www.electricitymaps.com/free-tier-api](https://www.electricitymaps.com/free-tier-api)) um auf aktuelle Daten zur CO2-Intensität zuzugreifen. Weitere Informationen zur Methodik findest Du unter [https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors](https://www.electricitymaps.com/methodology#carbon-intensity-and-emission-factors)
 
 **Authentifizierung**
 Der Authentifizierungsschlüssel (auth-token) für den Zugriff auf die API wird in der Datei `helper.py` für den Benutzer `benutzer@domain` hinterlegt.
